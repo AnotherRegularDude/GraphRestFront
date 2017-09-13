@@ -15,7 +15,8 @@
   "dependencies": {
     "@nuxtjs/bootstrap-vue": "^2.0.2",
     "axios": "^0.16.2",
-    "nuxt": "^1.0.0-rc8"
+    "nuxt": "^1.0.0-rc8",
+    "vis": "^4.20.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

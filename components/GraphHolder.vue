@@ -66,7 +66,7 @@
 
     computed: {
       linkToEdit: function() {
-        return `/graphs/${this.id}`;
+        return `editor/${this.id}`;
       },
     },
   };
