@@ -1,7 +1,7 @@
 <template>
     <div>
         <b-navbar toggleable="md" type="dark" variant="info" sticky>
-            <b-navbar-brand to="/">Graph The Shit</b-navbar-brand>
+            <b-navbar-brand to="/">Graph</b-navbar-brand>
             <b-nav is-nav-bar class="ml-auto">
                 <b-nav-item exact to="/">Home</b-nav-item>
                 <b-nav-item to="/graphs">Graphs</b-nav-item>

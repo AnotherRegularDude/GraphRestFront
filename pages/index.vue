@@ -2,10 +2,9 @@
     <b-container>
         <b-row>
             <b-col>
-                <b-jumbotron header="Graphs, Bitch!" lead="Fuck You!">
+                <b-jumbotron header="Graphs">
                     <p>
-                        Say graph again. SAY GRAPH again! And I dare you, I double dare you
-                        motherfucker! Say graph one more time.
+                        Just simple project.
                     </p>
                 </b-jumbotron>
             </b-col>
