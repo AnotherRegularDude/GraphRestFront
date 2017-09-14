@@ -25,6 +25,7 @@
                         @beforeRequest="beforeRequest"
                         @onResponse="onVertexResponse"
                         @dismissAlert="showDismissNode = false"/>
+                <path-search :graphId="$route.params.id"/>
             </b-col>
             <b-col>
                 <graph-component-form
@@ -62,6 +63,7 @@
 
 <script>
   import GraphComponentForm from '../../components/GraphComponentForm.vue';
+  import PathSearch from '../../components/PathSearch.vue';
 
   import axios from 'axios';
   import vis from 'vis';
@@ -293,6 +295,7 @@
 
     components: {
       GraphComponentForm,
+      PathSearch,
     },
   };
 </script>
